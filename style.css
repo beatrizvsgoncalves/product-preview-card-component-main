@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root {
+  --background: rgb(242, 235, 227);
+  --darkcyan: rgb(60, 128, 103);
+  --titlecolor: rgb(28, 35, 43);
+  --pcolor: rgb(108, 114, 137);
+  --white: rgb(255, 255, 255);
+
+  --font-padrão: 'Montserrat', sans-serif;
+  --font-destaque: 'Fraunces', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  font-size: 14px;
+  font-family: var(--font-padrão);
+  height: 100vh;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 20rem;
+}
+
+main img {
+  border-radius: .6rem .6rem 0 0;
+  display: block;
+  max-width: 100%;
+}
+
+section#principal {
+  background-color: var(--white);
+  border-radius: 0 0 .6rem .6rem;
+  padding: 1.5rem;
+  text-align: start;
+}
+
+section#principal  p:first-child {
+  font-size: .7rem;
+  letter-spacing: .2rem;
+  margin-left: -.1rem;
+  text-transform: uppercase;
+}
+
+.destaque {
+  font-family: var(--font-destaque);
+  font-size: 1.8rem;
+}
+
+h1 {
+  color: var(--titlecolor);
+  padding: .6rem 0;
+}
+
+p, del, button {
+  color: var(--pcolor);
+  font-family: var(--font-padrão);
+}
+
+strong {
+  color: var(--darkcyan);
+  padding-right: 1rem;
+}
+
+div#preco {
+  padding: 1rem 0;
+  position: relative;
+}
+
+div#preco > del {
+  font-size: .8rem;
+  margin-top: .7rem;
+  position: absolute;
+}
+
+button {
+  background-color: var(--darkcyan);
+  border: transparent;
+  border-radius: .5rem;
+  color: #f5f5f5;
+  display: block;
+  font-size: .8rem;
+  font-weight: 600;
+  margin: auto;
+  padding: 1rem;
+  width: 17rem;
+}
+
+button:active {
+  background-color: hwb(157 11% 75%);
+}
+
+#carrinho {
+  display: block;
+  position: relative;
+}
+
+#carrinho::before {
+  content: '';
+  background: url("images/carrinho-de-compras.png");
+  height: 16px;
+  left: 4.5rem;
+  position: absolute;
+  width: 16px;
+}
+
+footer { 
+  font-size: .8em;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(54, 76, 163); 
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(14, 34, 110);
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 600px) {
+  body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 38rem;
+  }
+
+  section#principal {
+    border-radius: 0 .6rem .6rem 0;
+    display: inline;
+    flex: 1;
+    padding: 1.8rem;
+    width: 15rem;
+  }
+
+  main img {
+    border-radius: .6rem 0 0 .6rem;
+    display: inline-block;
+    flex: 1;
+    height: 28rem;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  h1 {
+    padding: 1rem 3rem 1.5rem 0;
+
+  }
+
+  section p:first-child {
+    padding-top: 1rem;
+  }
+
+  div#preco {
+    padding: 1.8rem 0;
+  }
+
+  button {
+    width: 15rem;
+  }
+
+  #carrinho::before {
+    left: 3.7rem;
+  }
+
+  footer {
+    bottom: 0;
+    position: fixed;
+  }
+}
