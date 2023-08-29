@@ -35,7 +35,7 @@ main {
 main img {
   border-radius: .6rem .6rem 0 0;
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 section#principal {
