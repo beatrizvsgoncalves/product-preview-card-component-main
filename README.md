@@ -70,6 +70,3 @@ Gostei muito de desenvolver este projeto, eu consegui estimar com precisão o te
 - Frontend Mentor - [@beatrizvsgoncalves](https://www.frontendmentor.io/profile/beatrizvsgoncalves)
 
 
-## Agradecimentos
-
-Um agradecimento e créditos pelo icon de carrinho de compras que eu consegui no site Freepik: [Carrinho de compras ícones criados por Freepik - Flaticon](https://www.flaticon.com/br/icones-gratis/carrinho-de-compras)

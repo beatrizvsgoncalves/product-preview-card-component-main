@@ -107,7 +107,7 @@ button:active {
 
 #carrinho::before {
   content: '';
-  background: url("images/carrinho-de-compras.png");
+  background: url("images/icon-cart.svg");
   height: 16px;
   left: 4.5rem;
   position: absolute;
