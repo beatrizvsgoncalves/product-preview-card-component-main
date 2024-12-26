@@ -5,15 +5,16 @@ Essa é a solução para o [desafio do Frontend Mentor - Product preview card co
 
 ## Tabela de conteúdos
 
-- [Visão Geral](#visao-geral)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construido-com)
-  - [O que eu aprendi](#o-que-eu-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-continuo)
-- [Autora](#autora)
-- [Agradecimentos](#agradecimentos)
+- [Frontend Mentor - Product preview card component](#frontend-mentor---product-preview-card-component)
+  - [Tabela de conteúdos](#tabela-de-conteúdos)
+  - [Visão Geral](#visão-geral)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [Meu processo](#meu-processo)
+    - [Construído com](#construído-com)
+    - [O que eu aprendi](#o-que-eu-aprendi)
+    - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  - [Autora](#autora)
 
 
 ## Visão Geral
